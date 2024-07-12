@@ -28,7 +28,7 @@ body {
       rgba(0, 0, 0, 0.1),
       rgba(0, 0, 0, 0.1) 100%
     ),
-    url("../img/cxzczxc.png");
+    url("../img/cxzczxc.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -138,6 +138,7 @@ body {
   max-width: 297px;
   max-height: 279px;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 .dot1 {
   height: 6px;
