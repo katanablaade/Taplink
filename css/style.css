@@ -64,7 +64,7 @@ body {
 }
 .user-name {
   margin: 0;
-  margin-top: ;
+  margin-top: 5px;
   font-size: 20px;
   font-weight: 300;
   line-height: 23px;
@@ -75,4 +75,104 @@ body {
   font-weight: 300;
   line-height: 14px;
   margin: 0;
+}
+.card {
+  margin-top: 23px;
+  margin-bottom: 31px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 293px;
+  margin: auto;
+  gap: 10px;
+  margin-bottom: 13px;
+}
+.button {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+}
+.button.vk {
+  background: linear-gradient(180deg, rgb(76, 117, 163), rgb(28, 44, 61) 100%);
+}
+.button.tg {
+  background: linear-gradient(180deg, rgb(42, 171, 238), rgb(24, 98, 136) 100%);
+}
+.button.wa {
+  background: linear-gradient(
+    180deg,
+    rgb(95, 252, 123),
+    rgb(40, 209, 70) 75.5%
+  );
+}
+.button.gh {
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 5px;
+}
+.example {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+.exapmle-txt {
+  text-align: center;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
+  margin-bottom: 8px;
+}
+.example-page {
+  max-width: 297px;
+  max-height: 279px;
+  margin-bottom: 10px;
+}
+.dot1 {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #000;
+  display: inline-block;
+}
+.dot {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background: rgb(217, 217, 217);
+  display: inline-block;
+}
+.elipse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 29px;
+}
+.reviwes {
+  min-height: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  background: rgb(26, 26, 26);
+  margin-bottom: 54px;
+}
+.rev {
+  margin: 0;
+  padding-top: 11px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 19px;
 }
